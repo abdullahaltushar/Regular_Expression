@@ -23,7 +23,7 @@ Metacharacters
 - {}	Exactly the specified number of occurrences	"he.{2}o"	
 - |	Either or	"falls|stays"	
 - ()	Capture and group
-<br>
+<br/>
 
 Special Sequences
 - \A	Returns a match if the specified characters are at the beginning of the string	"\AThe"	
@@ -40,8 +40,9 @@ r"ain\B"
 - \w	Returns a match where the string contains any word characters (characters from a to Z, digits from 0-9, and the underscore _ character)	"\w"	
 - \W	Returns a match where the string DOES NOT contain any word characters	"\W"	
 - \Z	Returns a match if the specified characters are at the end of the string	"Spain\Z"
-<br>
+<br/>
 Sets
+
 - [arn]	Returns a match where one of the specified characters (a, r, or n) is present	
 - [a-n]	Returns a match for any lower case character, alphabetically between a and n	
 - [^arn]	Returns a match for any character EXCEPT a, r, and n	
@@ -50,3 +51,4 @@ Sets
 - [0-5][0-9]	Returns a match for any two-digit numbers from 00 and 59	
 - [a-zA-Z]	Returns a match for any character alphabetically between a and z, lower case OR upper case	
 - [+]	In sets, +, *, ., |, (), $,{} has no special meaning, so [+] means: return a match for any + character in the string.
+
