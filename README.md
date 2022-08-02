@@ -10,8 +10,8 @@ split	Returns a list where the string has been split at each match
 sub	Replaces one or many matches with a string
 </p>
 
-<h3>Metacharacters</h3>
-<p>
+Metacharacters
+
 - []	A set of characters	"[a-m]"/n
 - \	Signals a special sequence (can also be used to escape special characters)	"\d"
 - .	Any character (except newline character)	"he..o"	
@@ -22,7 +22,7 @@ sub	Replaces one or many matches with a string
 - ?	Zero or one occurrences	"he.?o"	
 - {}	Exactly the specified number of occurrences	"he.{2}o"	
 - |	Either or	"falls|stays"	
-- ()	Capture and group</p>
+- ()	Capture and group
 <h3>Special Sequences</h3>
 <p>
 - \A	Returns a match if the specified characters are at the beginning of the string	"\AThe"	
