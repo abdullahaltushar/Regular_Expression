@@ -12,10 +12,10 @@ sub	Replaces one or many matches with a string
 
 <h3>Metacharacters</h3>
 <p>
-[]	A set of characters	"[a-m]"	
-\	Signals a special sequence (can also be used to escape special characters)	"\d"	
-.	Any character (except newline character)	"he..o"	
-^	Starts with	"^hello"	
+[]	A set of characters	"[a-m]"/n
+\	Signals a special sequence (can also be used to escape special characters)	"\d"	/n
+.	Any character (except newline character)	"he..o"	/n
+^	Starts with	"^hello"	/n
 $	Ends with	"planet$"	
 *	Zero or more occurrences	"he.*o"	
 +	One or more occurrences	"he.+o"	
